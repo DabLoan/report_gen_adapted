@@ -1,3 +1,6 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+app_reportgenerator:
+  path: /reportgenerator
+  controller: ReportGenerator\Controller\ReportGeneratorController

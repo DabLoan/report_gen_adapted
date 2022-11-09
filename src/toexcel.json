@@ -1,0 +1,189 @@
+{
+    "title":"COMPTE RENDU DE LA DÉCLARATION DES LOYERS DE LA SOCIÉTÉ CHAUSSEA",
+    "created":"28/01/2022",
+    "strings":{
+        "clientname":"chaussea"
+    },
+    "images":{
+        "logoclient":
+        {
+            "filename":"logochaussea.png",
+            "content":[
+                "iVBORw0KGgoAAAANSUhEUgAAAGoAAAA3CAIAAABrU0jpAAAKPElEQVR4nO2aZ0wUaxSGB1jFLgpY",
+                "rhUr9ooliL333lBjRP2jsUaNLRpbTOzlhxqjxhrFLopixU6zgb0giBUFERQFkfs4597JBBdcHRM0",
+                "zvmxmZmvne8973nPN7tr+fLlS1pamr+/f2pqanp6umKaDWZnZ+fl5eXs7GzhBgR9fHySkpK4yG7H",
+                "/gwDvoCAAE9PTwuMEwKmpKTwmd2O/Rnm4OAgVLPIvZm2P2QaXJbs9eNPNxM+Q2bCZ8hM+AyZCZ8h",
+                "M+EzZCZ8hsyEz5CZ8BkyEz5DZsJnyEz4DJkJnyEz4TNkhuCzs7OTi7/2+66fh8/R0bFkyZJpaWlv",
+                "375NSEj4OxG0CT471QQg+eQW7BYtWvTu3buDBw8eOHAgXTXp/8uh/NYBfZN2/e26Wbcat+/Ax/IO",
+                "Dg6FCxd2cXHh+vXr12/evIFxXBcqVKhjx47c3rp1K3/+/HTIlSsXNIyNjf306ZOiA1o+7e3t0/83",
+                "bXIecsGE+r3ZqybPFZXmrq6uTk5OHz58ePnyJZ/6GXhetGhRnrAueSDfoXMrk+M5Y9lCrGq06hfS",
+                "fMsQG9uBzhQ+ZsyRI0e1atV69uxZv359/OBhUlLS1atXt27devPmTZzDrTx58nh6elatWrVixYr0",
+                "Z28RERE7d+4MCwtLTk6mT968edu2bdusWTPYmpKScu/evRMnTtCKi507d+7SpQtYL1++nAnZG4ta",
+                "LJZ+/fr16dMnJiZm7dq1DB84cGD16tVZKDU1NSoqas+ePczAQrg0dOjQFi1agCC+EcgzZ87Q+uTJ",
+                "EyZ3d3fH88aNG9MNNxITE69du7Zt27YbN25IVFioTJkyLVu29PDwoA9bu379+tGjRx88eGD7j46Z",
+                "wkfMmzdvPm7cOGZnD0IHJq1bt27r1q1nzZoFEdgtvGMDXNBfBtauXZs+M2fOvHDhApDR08vLix3S",
+                "geFgCmTgyz4rVKjAWIDYvHmzlmUsRCTatWt3//59sO7evXu9evXYD8wqUKBAzZo169Spkzt37lOn",
+                "Ts2ePZvWfPnyvXr1iuHSVKJEiZUrV7q5ueE52NFKjDXPeYLgHD58mFWaNm06duzYWrVqFSxYUH76",
+                "ad++PWFbunQpWmQjgtbhY3bmHTNmTJMmTVC3vXv34i7cgWje3t4EFr7gh+yZhQMDA319fT9+/Nim",
+                "TRvQwVEfHx8GzpgxA4CI8507dy5evAg9CUalSpVGjRoFFjlz5rSoplcoSSUeOjs7Q9sGDRo8f/6c",
+                "5dgzAE2dOrVKlSrwEQ+7devGJKQCnnAxcuRIaAub3r9/D1tZF39oPXnyJFgAFqPY1PTp02Hi58+f",
+                "CTCBgXRnz56FccWKFWOzLLFw4UIeBgQE2PK7oxX48B5voB4ZBwTLli3btGlTfHw8TUeOHIEUCxYs",
+                "QG4IHT3xDFwmT5788OFDbi9fvowCEsNGjRpNmTKFSWAKOThnzhymokPp0qWJyrBhw3r37o0YCam/",
+                "dYBPwP36O7TFQtjo+fTpU5SXxCTRoLCks6LmLGkOU/AKUgusgIgmzJs3b8eOHcgx3Y4dO3bp0qXV",
+                "q1cTvIkTJ0JYsGMg0EvgISChgnqQA2TZFA5/l4DW4QMdZgcIQnf8+PG4uDiRZD6BEiqRiQgH3hAo",
+                "NCUyMlJiBVPu3r3Lw39UY/MICvlL6okrxHnLli2VK1cm1NKBzlY9Y0hoaCgJTi4vXry4R48ecBxB",
+                "4CHwAQpQ0jp69OiGDRuSHOfPnw8PDwdxahpqI7dAzC4UNZ/wk+GdOnUiqEQdfPft27d7925gkhUZ",
+                "AleWLFmClJNALPcz8GFIBggCFjEnUFq55JNAwXYgpqrwBGoArtaBIXQASrgjt0FBQfinTwRiTgCg",
+                "Nn301TmDMQ8ZRGCoD0WKFOnQoQOyAGqI5po1ayD7hAkToEm5cuVQWzRh/PjxISEh+EZUmBACEqEM",
+                "hZ5o4RIaQvgfPXpEpMl0/X8rIB2xIfnIEn1F/jH4kAaCw2BST6sJYoSROoAfKK4AqndRM+0JrpAX",
+                "RFtrAjXJO0GNCTPIH9uTGUhMaHXo0CE0FyxQLsAaPnw4AJGA1FnwogldA77y5csTEkRDpqIiEXuw",
+                "0MMnn3CzbNmyLIobUli0DuKtnDqyQO078KF0ZBkkRwhgGUUWLijqnxNIpf79+4MpSWGVNbJzAoBg",
+                "ceZie5x7rly5Ak9pwmNuUQbRTbATpktdloBRN+nJJslKjpMQbfv27agYekctou5TFgYMGHD79m2I",
+                "j7xAUhYaMmQIBCR501SDtqQ8mS6HUM0xjJSfP39+jRo1wJoYoOZykkVVOevgD0Cmq2FUCroojrmU",
+                "hDglMUH5YqWSWIFPjqDQmEJOmRs8eDBPOEPwWbx48REjRvTq1QsscNqq8IsBH6yhdJYqVWru3LlU",
+                "j8ePH4M+8aACEhLcRRaIAQHnmBIdHY2WwQgoxq7YD0BPmzYNFlAQqIbPnj2DTZz7WJpRFCs64BX+",
+                "oHHoA4KAXJITAMco5JVzJc/hAbMBK0lKf6QWQHlTgsicE0herqE5YYPgxICwqYS1U4qUVLp4K86u",
+                "yrUgJdBPSYi3FT64BnyUJIiG6LASocYJfIICtPr5+aG74Gh1OEZnZAhEBg0aRGYRcLQGuCk4EErk",
+                "hgM2BIRiyDnnBrZNXnMLldBHNI5o0YSKARnnavqQnkCMngIKUghPJ02aBIOYmc0zEKpu2LABBrFu",
+                "165dcZiXIlahJ5+cYziEkVtAhrrRoW/fvgwkkBxg6SN15j8xKuWmeHgpQpHwYFvhk/HQAT+IFfAh",
+                "KxQjniMl4Hj69On169ejgC9evOAwQQD1Y7mFvEgPXpJZzMO7HcOZBEwhEbWYbAUauECxg1CtWrXi",
+                "0ECasy5Iwab9+/eTsGgcTGF7EFZRtYnJAQvHAIXVyQ8AJZflbQzfqKS7du2S1wzY566aeM5yrAv6",
+                "+EbCrlq1Ct/QTRwjunCC0gxbqblkycfkZCXutRL1QCngpMREKu8TrQKV6VsHW2WNdevWcZQjhgRW",
+                "UQ9ZVCsEhTQhHSh8rAqJtOLFHqAtrpM+bAYEST36c9oSVUJGQbyoajAFTiGL586dYw9QhuHIGdAE",
+                "BwezBAARCYQSpYcdIMvBiLdGZgbWFStWsBa+MTPIyts3rVzgz8aNGyksqAQL4RiLMopWfBNplt1R",
+                "mpicpcGXXAFZNBGIw0JD0qNj0n3Xf4XvaZQSF/tj8EkOslvOfQQcacdF1mBh6QDhcfHbgRGq6Z/c",
+                "US2zhdgtOJI12ludFBkJIUlKq6NqLC2nImkFEX9/f95/kS3xTRso08o5UfKR1gxvEdwS3RDV9M+B",
+                "WLeZ0MzcFrPpC6tU1Wzp+XMmqElxt3oGogm6WT2C4ZhE1GorTZkdy3+J/UZf1md9QM2iNRu/qf2N",
+                "4PsTzYTPkJnwGTITPkNmwmfITPgMmQmfITPhM2QmfIbMhM+QmfAZMhM+Q2bCZ8hM+AyZCZ8hM+Ez",
+                "ZF/hk7/C6X8wNi1rAy75jdsif12Q3yH/zj/Y/oTJv0O5+BdLnwiVu6JNHwAAAABJRU5ErkJggg=="
+            ]
+        }
+    },
+    "board":{
+        "leftcol":[
+            {
+                "desc":"Nombre de sociétés",
+                "val":"1"
+            },
+            {
+                "desc":"Nombre d'invariants'",
+                "val":"535" 
+            }
+                
+        ],
+        "rightcol":[
+            {
+                "desc":"Nombre de ROF",
+                "val":"467"
+            },
+            {
+                "desc":"Nombre de ROF avec invariants multiples",
+                "val":"50"
+            }
+        ]
+    },
+    "tables":{
+        "modeoccupation":[
+            {
+                "mode":"DIF",
+                "val": "20"
+            },
+            {
+                "mode":"INC",
+                "val": "14"
+            },
+            {
+                "mode":"LNO",
+                "val": "32"
+            },
+            {
+                "mode":"LOC",
+                "val": "18"
+            }
+            
+        ],
+        "typeoccupation": [
+            {
+                "type":"partielle",
+                "val": "39"
+            },
+            {
+                "type":"totale",
+                "val":"12"
+            }
+            
+        ],
+        "nblocauxinvariants":[
+            {
+                "categorielocal":"ATE1",
+                "nblocaux":"1"
+            },
+            {
+                "categorielocal":"BUR1",
+                "nblocaux":"1"
+            },
+            {
+                "categorielocal":"BUR2",
+                "nblocaux":"2"
+            },
+            {
+                "categorielocal":"DEP1",
+                "nblocaux":"1"
+            },
+            {
+                "categorielocal":"DEP2",
+                "nblocaux":"3"
+            },
+            {
+                "categorielocal":"DEP3",
+                "nblocaux":"29"
+            },
+            {
+                "categorielocal":"DEP4",
+                "nblocaux":"2"
+            },
+            {
+                "categorielocal":"MAG1",
+                "nblocaux":"12"
+            },
+            {
+                "categorielocal":"MAG3",
+                "nblocaux":"23"
+            },
+            {
+                "categorielocal":"MAG4",
+                "nblocaux":"445"
+            },
+            {
+                "categorielocal":"MAG5",
+                "nblocaux":"15"
+            },
+            {
+                "categorielocal":"MAG6",
+                "nblocaux":"1"
+            }
+        ],
+        "prcdifferentessurfaces":[
+            {
+                "typesurface":"surface principale",
+                "taille":"49"
+            },
+            {
+                "typesurface":"surface secondaire",
+                "taille":"7"
+            },
+            {
+                "typesurface":"surface secondaire couverte",
+                "taille":"1"
+            },
+            {
+                "typesurface":"surface parking couvert",
+                "taille":"2"
+            },
+            {
+                "typesurface":"surface parking non couvert",
+                "taille":"41"
+            }
+        ]
+    }
+}
